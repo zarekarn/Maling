@@ -1,0 +1,25 @@
+package Practice;
+import java.util.Scanner;
+
+public class Loop {
+	
+	int i;
+	int sum;
+	int mult;
+	System.out.println("please enter your value");
+	
+	Scanner sc=new Scanner (System.in);
+	sum=sc.nextInt();
+	
+
+	public static void main(String[] args) {
+		
+		for(i=1; i>=10; i++)
+		{
+			mult= sum*i ;
+			System.out.println(mult);
+		}
+
+	}
+
+}

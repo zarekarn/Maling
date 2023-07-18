@@ -1,0 +1,23 @@
+package Practice;
+import java.util.Scanner
+
+public class loop {
+	
+	
+	public static void main(String[] args) {
+		int sum;
+		
+	System.out.println("please enter your Number");
+	
+	Scanner sc=new Scanner(System.in);
+	sum=sc.nextInt();
+		
+		for(int i=1; i<=10; i++)
+		{
+			sum= sum*i;
+			System.out.println(sum);
+		}
+		
+	
+
+}}

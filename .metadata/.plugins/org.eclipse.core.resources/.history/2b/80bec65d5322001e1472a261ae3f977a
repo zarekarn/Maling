@@ -1,0 +1,27 @@
+package Practice;
+import java.util.Scannar;
+import java.util.Scanner;
+
+public class NameClass {
+
+	public static void main(String[] args) {
+		String letters;
+		System.out.println("please enter Alphbhet");
+		
+		Scanner sc=new Scanner(System.in);
+		letters=sc.next();
+		
+		switch(letters)
+		{
+		case "A":
+			System.out.println("Amit");
+			break;
+			
+			
+			
+			
+		}
+
+	}
+
+}
